@@ -28,13 +28,12 @@ Gem::Specification.new do |s|
      "VERSION",
      "generators/jasmine-fixtures/jasmine_fixtures_generator.rb",
      "generators/jasmine-fixtures/templates/INSTALL",
-     "generators/jasmine-fixtures/templates/spec/controllers/jasmine_fixture_creators.rb",
-     "generators/jasmine-fixtures/templates/spec/javascripts/example-users-spec.js",
      "generators/jasmine-fixtures/templates/spec/javascripts/helpers/jasmine-fixture-helper.js",
      "generators/jasmine-fixtures/templates/spec/javascripts/helpers/jasmine-fixture-loader.js",
      "generators/jasmine-fixtures/templates/spec/javascripts/helpers/jquery-matchers.js",
      "generators/jasmine-fixtures/templates/spec/support/jasmine_fixture_generator_methods.rb",
-     "jasmine-fixtures.gemspec"
+     "jasmine-fixtures.gemspec",
+     "lib/generators/jasmine_fixtures/jasmine_fixtures_generator.rb"
   ]
   s.homepage = %q{http://github.com/mavenlink/jasmine-fixtures}
   s.rdoc_options = ["--charset=UTF-8"]
